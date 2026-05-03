@@ -30,7 +30,7 @@ Monthly folders keep things tidy — ~30 files max per folder, nothing gets dele
    COROS_PASSWORD=your_password
    COROS_REGION=eu
    OBSIDIAN_API_KEY=...
-   OBSIDIAN_VAULT=Life
+   OBSIDIAN_VAULT=...
    ```
 
 3. **Run**
