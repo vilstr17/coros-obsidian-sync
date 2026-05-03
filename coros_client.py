@@ -531,8 +531,7 @@ async def fetch_activity_detail(auth: StoredAuth, activity: Activity) -> Activit
                 name = f"Z{idx + 1}"
                 seconds = z.get("second", 0)
                 mins = round(seconds / 60, 1) if seconds else 0
-                if mins > 0:
-                    hr_zones[name] = mins
+                hr_zones[name] = mins
 
     # Lap data
     laps = []
